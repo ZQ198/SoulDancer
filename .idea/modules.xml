@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/loginFrame-master/free-fs.iml" filepath="$PROJECT_DIR$/loginFrame-master/free-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/loginFrame-master.iml" filepath="$PROJECT_DIR$/.idea/loginFrame-master.iml" />
+    </modules>
+  </component>
+</project>

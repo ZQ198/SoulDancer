@@ -1,0 +1,28 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://localhost:3306/login?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: C##ROOT
+    password: 123456
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  mail:
+    host: smtp.qq.com #平台地址，这里用的是qq邮箱，使用其他邮箱请更换，如163邮箱为smtp.163.com
+    username: 2637388400@qq.com #发验证码的源头邮箱
+    password: jrttkmqbokzadjda  #发送短信后它给你的授权码 填写到这里
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+    default-encoding: UTF-8
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDeleted  # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro"
+      xmlns:margin-left="http://www.w3.org/1999/xhtml" xmlns:margin-top="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,14 +9,40 @@
     <link rel="stylesheet" th:href="@{/assets/modules/layui/css/layui.css}">
     <link rel="stylesheet" th:href="@{/assets/modules/dtree/dtree.css}">
     <link rel="stylesheet" th:href="@{/assets/modules/dtree/font/dtreefont.css}">
-    <link rel="stylesheet" th:href="@{/assets/css/common.css}">
+    <link rel="stylesheet" th:href="@{/assets/css/index.css}">
 </head>
-
 <body>
+<!--导航栏-->
+<nav class="index-nav">
+    <div class="header">
+        <div class="header-content">
+            <!--左边内容-->
+            <div class="header-left">
+                <!--图标和横向导航-->
+                <a href="" id="logo"><img src="../../assets/img/logo.png"></a>
+                <a href="https://www.youku.com/">DOTA2</a>
+                <a href="https://www.youku.com/">CSGO</a>
+                <a href="https://www.youku.com/">汰换合同</a>
+                <a href="https://www.youku.com/">福利ROLL房</a>
+                <a href="https://www.youku.com/">商城</a>
+                <a href="https://www.youku.com/">幸运饰品</a>
+                <a href="https://www.youku.com/">对战开箱</a>
+            </div>
+            <!--右边内容-->
+            <div class="header-right">
+<!--                <div class="sign">-->
+<!--                    登录/注册-->
+<!--                </div>-->
+                <input type="button" value="登录/注册" class="sign" onclick="loginIndex()">
+<!--                <button class="sign" onclick="loginIndex()">登录/注册</button>-->
+            </div>
+        </div>
+    </div>
+</nav>
+<!--出货记录-->
+<div class="index-record">
 
-<h1>你的后台首页！！！</h1>
-<h1>你的后台首页！！！</h1>
-<h1>你的后台首页！！！</h1>
-
+</div>
+<script type="text/javascript" th:src="@{/assets/js/index.js}"></script>
 </body>
 </html>

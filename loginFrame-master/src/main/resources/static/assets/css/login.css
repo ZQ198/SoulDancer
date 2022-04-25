@@ -26,7 +26,7 @@ body:before {
 
 .login-wrapper > .layui-form {
     padding: 25px 30px;
-    background-color: #fff;
+    background-color: #23262E;
     box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
     border-radius: 4px;
@@ -35,6 +35,7 @@ body:before {
 .login-wrapper > .layui-form > h2 {
     color: #333;
     font-size: 18px;
+    color: white;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -142,5 +143,5 @@ body:before {
     color: #5FB878 !important;
 }
 .pull-right {
-    float: right;
+    /*float: right;*/
 }

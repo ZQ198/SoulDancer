@@ -1,3 +1,7 @@
+// 登录弹框
+function close() {
+    var close = document.getElementById("close");
+}
 layui.use(['jquery', 'layer', 'form'], function () {
     var $ = layui.jquery;
     var layer = layui.layer;
